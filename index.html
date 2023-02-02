@@ -56,12 +56,13 @@
         </p>
         <form id="register-form">
           <div id="name-container">
-            <input type="text" name="name" id="name" placeholder="Nome" />
-            <input
+            <input type="text" name="name" id="name" placeholder="Nome"   required/>
+            <input  
               type="text"
               name="lastname"
               id="lastname"
               placeholder="Sobrenome"
+              required
             />
           </div>
           <input
@@ -69,13 +70,14 @@
             name="email"
             id="email"
             placeholder="Digite seu e-mail"
+            required
           />
-          <input type="submit" value="Cadastrar" />
+          <input type="submit" formaction="./agradecimento.html" value="Cadastrar" />
         </form>
         <div id="benefits">
           <h4>O que você vai aprender</h4>
           <ul>
-            <li>Como escolher uma stack de tecnologia</li>
+            <li>Como escolher uma stack</li>
             <li>Criar um projeto do zero</li>
             <li>Prospectar clientes</li>
             <li>Estratégia de vendas</li>

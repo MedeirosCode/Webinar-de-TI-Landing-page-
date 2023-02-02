@@ -172,62 +172,71 @@ body {
 }
 
 /* Responsivo */
-@media (max-width: 450px) {
-  body {
-    flex-direction: column;
-  }
-
+@media (max-width: 430px) and (min-width: 320px) {
   #about-container {
-    padding: 2rem;
-    padding-bottom: 0;
+    padding: 1rem;
   }
-
   #about-container h2 {
-    font-size: 3rem;
+    font-size: 38px;
   }
-
   #exclusive,
   #date {
-    font-size: 1.4rem;
+    font-size: 18px;
   }
-
   #description {
-    font-size: 1.6rem;
-    line-height: 2.2rem;
+    font-size: 20px;
   }
-
   #about-container h4 {
-    font-size: 2rem;
+    font-size: 28px;
   }
-
-  #users-container {
-    flex-direction: column;
-  }
-
   .user-card {
     width: 100%;
-    padding: 2rem;
   }
-
   .user-card img {
     width: 180px;
   }
-
   .user-card .user-name {
     font-size: 1.6rem;
   }
-
   .user-card .user-role {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
+  }
+  #form-container {
+    width: 100%;
+  }
+  #form-inner {
+    margin: 1rem;
+    padding: 2rem;
+    text-align: left;
+  }
+  #form-inner p {
+    font-size: 17px;
   }
 
+  #register-form input[type="submit"] {
+    margin-top: 1rem;
+  }
+  #benefits li {
+    font-size: 16px;
+  }
+  #benefits {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+
+  #register-form #name-container {
+    font-size: 10px;
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+}
+
+/* 
   #form-inner {
     margin: 2rem;
     padding: 2rem;
   }
 
-  #register-form,
-  #name-container {
-    gap: 1rem;
-  }
-}
+ 
+} */
